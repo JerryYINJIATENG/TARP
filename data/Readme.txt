@@ -1,10 +1,10 @@
 *********************************************************************************************************************************************
 ***********The codes are used to randomly generate test instances for paper ***************************************************************
-"Integrated Backup Train Allocation and Timetable Rescheduling with Uncertain Time-Variant Passenger Demand Under Disruptive Events"
-***********which is pre-submitted to Opeartions Research
+"Integrated Backup Rolling Stock Allocation and Timetable Rescheduling with Uncertain Time-Variant Passenger Demand Under Disruptive Events"
+*********** To be appear on INFORMS Journal on Computing
 
 
-The files include the data sets that have already been generated for instances in Table 9 (Appendix EC.4). The users can also use the code to generate more instances for testing.
+The files include the data sets that have already been generated for instances in Table 11 (Appendix EC.5). The users can also use the code to generate more instances for testing.
 The data contains five groups. Each group has two .csv files. The first file specifies the dynamic passenger arriving volumes at each station for each stochastic scenario. 
 The second file specifics the cumulative volume of alighting passengers at each station for each stochastic scenario. In addition, some other related parameters are also listed in the data set.
 
