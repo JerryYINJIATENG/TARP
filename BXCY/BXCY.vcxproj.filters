@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Helper">
+      <UniqueIdentifier>{1b047b45-18db-47f1-99c8-673bf9f4931d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Helper">
+      <UniqueIdentifier>{03ea5e34-9043-4c55-a5e1-c55490e4b8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SMPS">
+      <UniqueIdentifier>{05c8233c-cd9b-4c4d-b595-d332e9b291e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SMPS">
+      <UniqueIdentifier>{1900ec36-ac44-4d58-98cc-bfed9dfd5d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Items">
+      <UniqueIdentifier>{a204af1a-2a5b-401b-af5e-b3c2b2a1f28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Models">
+      <UniqueIdentifier>{ff1f1325-b5ef-449e-8350-f73a059951d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Models">
+      <UniqueIdentifier>{6666979e-54c7-4165-bb79-0a594ffd0c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Items">
+      <UniqueIdentifier>{18806534-0411-4ac7-aa45-6353a69d4620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Separators">
+      <UniqueIdentifier>{4caf5c4b-8df2-4895-a8ff-964e25c0aede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Separators">
+      <UniqueIdentifier>{dd701eaf-f875-4b2b-811c-9e864d272e52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHelper.cpp">
+      <Filter>源文件\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHelper.cpp">
+      <Filter>源文件\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonHelper.cpp">
+      <Filter>源文件\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="SMPS_Reader.cpp">
+      <Filter>源文件\SMPS</Filter>
+    </ClCompile>
+    <ClCompile Include="CPXMasModel.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="CPXMeanModel.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="CPXSubModel.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="inequality.cpp">
+      <Filter>源文件\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="CoverInequalitySeparator.cpp">
+      <Filter>源文件\Separators</Filter>
+    </ClCompile>
+    <ClCompile Include="CPXHelper.cpp">
+      <Filter>源文件\Helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileHelper.h">
+      <Filter>头文件\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>头文件\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVParser.h">
+      <Filter>头文件\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="boollinq.h">
+      <Filter>头文件\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonHelper.h">
+      <Filter>头文件\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="SMPS_Reader.h">
+      <Filter>头文件\SMPS</Filter>
+    </ClInclude>
+    <ClInclude Include="row_info.h">
+      <Filter>头文件\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_info.h">
+      <Filter>头文件\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_info.h">
+      <Filter>头文件\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="scen_info.h">
+      <Filter>头文件\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="instance.h">
+      <Filter>头文件\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="inequality.h">
+      <Filter>头文件\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CPXMeanModel.h">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="CPXMasModel.h">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="CPXSubModel.h">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>头文件\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="CoverInequalitySeparator.h">
+      <Filter>头文件\Separators</Filter>
+    </ClInclude>
+    <ClInclude Include="CPXHelper.h">
+      <Filter>头文件\Helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cplex1280.dll" />
+  </ItemGroup>
+</Project>
