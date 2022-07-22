@@ -1,0 +1,49 @@
+* Problem:
+* Class:      MIP
+* Rows:       6
+* Columns:    6 (6 integer, 6 binary)
+* Non-zeros:  13560
+* Format:     Fixed MPS
+*
+NAME
+ROWS
+ N  obj
+ G  c1
+ G  c2
+ G  c3
+ G  c4
+ G  c5
+ G  c6
+COLUMNS
+    M0000001  'MARKER'                 'INTORG'
+    x0      obj                 50   c1                  79
+    x0      c2                  46   c3                   88
+    x0     c4                  40
+    x1      obj                 91   c1                  50
+    x1      c2                   1    c5                  32
+    x1      c6                   14
+    y0      obj                  1   c3                 87
+    y0      c4                  52   c5                 62
+    y0      c6                  88
+    y1      obj                  2   c3                 83
+    y1      c4                  94   c5                 91
+    y1      c6                  25
+    y2      obj                  1   c3                 66
+    y2      c4                  54   c5                 38
+    y2      c6                  24
+    y3      obj                  2   c3                 24
+    y3      c4                  84   c5                 100
+    y3      c6                  12
+    M0000002  'MARKER'                 'INTEND'
+RHS
+    RHS1      c1                45   c2                1
+    RHS1      c3                22   c4                14
+    RHS1      c5                25   c6                6   
+BOUNDS
+ UP BND1      x0                 1
+ UP BND1      x1                 1
+ UP BND1      y0                 1
+ UP BND1      y1                 1
+ UP BND1      y2                 1
+ UP BND1      y3                 1
+ENDATA

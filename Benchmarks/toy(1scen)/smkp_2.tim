@@ -1,0 +1,5 @@
+TIME
+PERIODS       LP
+    x0      c1                       STAGE-1
+    y0      c3                      STAGE-2
+ENDATA

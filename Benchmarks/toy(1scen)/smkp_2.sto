@@ -1,0 +1,8 @@
+STOCH
+SCENARIOS     DISCRETE
+ SC SCEN1     'ROOT'        0.500000   STAGE-1
+    y0      obj                 23
+    y1      obj                 41
+    y2      obj                 20
+    y3      obj                 69
+ENDATA
